@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-
+    {% include head.html %}
+    
     <!-- other stuff -->
-
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-  </head>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-	<ul class="nav navbar-nav">
-	  <li><a href="#">Home</a></li>
-	  <li><a href="#">Links</a></li>
-	</ul>
-      </div>
-    </nav>
+    {% include sidebar.html %}
 
-    <div>
-      {{content}}
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <!-- Page content -->
+      <div class="container content">
+        {{ content }}
+      </div>
+
+      <footer>
+	footer
+      </footer>
     </div>
 
-    <footer>
-      footer
-    </footer>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <!-- Scripts -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- script for sidebar toggling -->
+    <script>
+      (function(document) {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('#sidebar');
+      var checkbox = document.querySelector('#sidebar-checkbox');
 
-    <!-- Latest compiled and minified Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      document.addEventListener('click', function(e) {
+      var target = e.target;
+
+      if(!checkbox.checked ||
+      sidebar.contains(target) ||
+      (target === checkbox || target === toggle)) return;
+
+      checkbox.checked = false;
+      }, false);
+      })(document);
+    </script>
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+
+    <!-- <\!-- Latest compiled and minified Bootstrap JavaScript -\-> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
   </body>
 </html>
