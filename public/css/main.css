@@ -1,18 +1,30 @@
-/* html, body{ */
-/*     height: 100% */
-/* } */
+html, body, .wrap{
+    height: 100%
+}
+
+body > .wrap{
+    height: auto;
+    min-height: 100%;
+}
+
+.wrap{
+    padding-bottom: 2em;
+}
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  /* height: 10px; */
-
-  /* ----- */
-  border-top: 1px solid #eee;
-  text-align: right;
-  padding-right: 25px;
+    clear: both;
+    position: relative;
+    /* z-index: 10; */
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 2em;
+    margin-top: -2em;
+    
+    /* ----- */
+    border-top: 1px solid #eee;
+    text-align: right;
+    padding-right: 1em;
   
 }
 
