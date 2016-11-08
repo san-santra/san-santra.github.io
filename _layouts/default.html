@@ -15,8 +15,12 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+	    {% if page.title == "Home" %}
+            {{ site.title }}
             <small>{{ site.tagline }}</small>
+	    {% else %}
+	    {{ page.title }}
+	    {% endif %}
           </h3>
         </div>
       </div>
