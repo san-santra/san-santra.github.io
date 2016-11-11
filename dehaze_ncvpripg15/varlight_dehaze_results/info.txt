@@ -1,0 +1,28 @@
+Supplementary Material for paper ID:29
+----------------------------------------
+
+Each folder contains different images and its corresponding dehazed result by different methods. The file naming convention is described below. 
+
+Filename convention -
+<filename>_input - Original Image 
+<filename>_tan - Result of Tan's method [1]
+<filename>_fattal - Result of Fattal's old method [2]
+<filename>_dc - Result of Dark Channel Prior [3]
+<filename>_dc_own - Result of Dark Channel Prior, our own implementation
+<filename>_cl - Result of Color line based dehazing [4]
+<filename>_our - Result of our method
+
+
+
+References
+--------------
+[1] R. Tan, “Visibility in bad weather from a single image,” in Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on, June 2008, pp. 1–8.
+[2] R. Fattal, “Single image dehazing,” ACM Trans. Graph., vol. 27, no. 3, pp. 72:1–72:9, Aug. 2008. [Online]. Available: http://doi.acm.org/10.1145/1360612.1360671
+[3] K. He, J. Sun, and X. Tang, “Single image haze removal using dark channel prior,” Pattern Analysis and Machine Intelligence, IEEE Transactions on, vol. 33, no. 12, pp. 2341–2353, Dec 2011.
+[4] R. Fattal, “Dehazing using color-lines,” ACM Trans. Graph., vol. 34, no. 1, pp. 13:1–13:14, Dec. 2014. [Online]. Available: http://doi.acm.org/10.1145/2651362
+
+
+
+"Oberfallenberg4" by böhringer friedrich - Own work. Licensed under CC BY-SA 2.5 via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Oberfallenberg4.JPG#/media/File:Oberfallenberg4.JPG
+"Pluie Alsacienne" by Jef132 - Own work. Licensed under CC BY-SA 3.0 via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Pluie_Alsacienne.JPG#/media/File:Pluie_Alsacienne.JPG
+
