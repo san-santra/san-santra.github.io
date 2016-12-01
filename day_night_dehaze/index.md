@@ -9,14 +9,14 @@ title: Single Image Dehazing
    <img src="{{ site.baseurl }}/public/haze_image/Oberfallenberg_input.jpg" alt="input image"/>
    </div>
    <div class="col-xs-6">
-   <img src="results/Oberfallenberg_fixed.jpg" alt="output image"/>
+   <img src="results/Oberfallenberg_our.jpg" alt="output image"/>
    </div>
    
    <div class="col-xs-6">
-   <img src="{{ site.baseurl }}/public/haze_image/fog_on_the_bay.jpg" alt="input image"/>
+   <img src="{{ site.baseurl }}/public/haze_image/fog_on_the_bay_input.jpg" alt="input image"/>
    </div>
    <div class="col-xs-6">
-   <img src="results/fog_on_the_bay_fixed.jpg" alt="output image"/>
+   <img src="results/fog_on_the_bay_our.jpg" alt="output image"/>
    </div>
 </div>
 
