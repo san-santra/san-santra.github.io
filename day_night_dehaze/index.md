@@ -25,7 +25,7 @@ Images taken under fog or haze have their visibility reduced due to the existenc
 
 Published in ICPR 2016 <br/>
 Preprint paper: [[pdf]](santra_dehaze_unconstrained.pdf) <br/>
-Presentation slide: [pdf] coming soon
+Presentation slide: [[pdf]](icpr16_slide.pdf)
 
 **Results:** [Output Comparison](results.html)
 
