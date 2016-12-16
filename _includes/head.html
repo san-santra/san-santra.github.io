@@ -33,4 +33,10 @@
 
   <!-- Custom Modifications -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css">
+
+  <!-- Google Analytics -->
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  
 </head>
