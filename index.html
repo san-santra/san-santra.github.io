@@ -14,5 +14,19 @@ title: Home
   <ul>
     <li><time datetime="2016-07">July 2016</time> - Paper accepted in ICPR 2016.</li>      
   </ul>
-  
 </div>
+
+<script>
+  function close_sidebar(mq){
+    var side_bar = document.getElementById("sidebar-checkbox");
+    if(mq.matches){
+      side_bar.removeAttribute("checked");
+    }else{
+      side_bar.setAttribute("checked", "");
+    }
+  }
+
+  // if the maximum width is below a threshold don't show the sidebar.
+  var mq = window.matchMedia("(max-width:48em)");
+  close_sidebar(mq);
+</script>
