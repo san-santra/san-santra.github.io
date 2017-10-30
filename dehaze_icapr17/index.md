@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Image Dehazing via Joint Estimation of Transmittance Map and Environmental Illumination
+title: Single Image Dehazing
 ---
 
 ## Image Dehazing via Joint Estimation of Transmittance Map and Environmental Illumination
