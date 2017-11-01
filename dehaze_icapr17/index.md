@@ -7,14 +7,14 @@ title: Single Image Dehazing
 
 #### Sanchayan Santra, Ranjan Mondal, Pranoy Panda, Nishant Mohanty, Shubham Bhuyan
 
-<!-- <div class="row"> -->
-<!--    <div class="col-xs-6"> -->
-<!--    <img src="image/Oberfallenberg4_input.png" alt="input image"/> -->
-<!--    </div> -->
-<!--    <div class="col-xs-6"> -->
-<!--    <img src="image/Oberfallenberg4_our.png" alt="output image"/> -->
-<!--    </div> -->
-<!-- </div> -->
+<div class="row">
+   <div class="col-xs-6">
+      <img src="{{ site.baseurl }}/public/haze_image/hongkong_input.jpg" alt="input image"/>
+   </div>
+   <div class="col-xs-6">
+      <img src="results/hongkong_input_out.jpg" alt="output image"/>
+   </div>
+</div>
 
 
 <center><b>Abstract</b></center>
