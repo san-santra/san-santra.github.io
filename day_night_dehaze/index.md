@@ -4,6 +4,8 @@ title: Single Image Dehazing
 ---
 
 ## Day/Night Unconstrained Image Dehazing
+
+#### Sanchayan Santra, Bhabatosh Chanda
 <div class="row">
    <div class="col-xs-6">
    <img src="{{ site.baseurl }}/public/haze_image/Oberfallenberg_input.jpg" alt="input image"/>
