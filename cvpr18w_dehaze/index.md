@@ -27,7 +27,9 @@ Very few of the existing image dehazing methods have laid stress on the accurate
 
 
 Accepted in CVPR 18 Workshop NTIRE 2018 <br/>
-Preprint paper: Uploading Soon <br/>
+Preprint paper: [Pdf](ntire18_paper.pdf) <br />
+Poster: [Pdf](ntire18_poster.pdf) <br/>
+Presentation Slide: [Pdf](ntire18_slide.pdf) <br/>
 Code: [[Github]](https://github.com/ranjan1990/CVPR2018_Dehazing)
 
 **Results:** [Uploading Soon](#)
