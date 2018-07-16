@@ -23,6 +23,5 @@ Haze limits the visibility of outdoor images, due to the existence of fog, smoke
 
 Published in [ICAPR 2017] <br/>
 Preprint paper: [[pdf]](icapr17_preprint.pdf) <br/>
-Presentation slide: Uploading soon.
 
 **Results:** [Uploading soon](#)
