@@ -12,7 +12,7 @@ title: Single Image Dehazing
       <img src="{{ site.baseurl }}/public/haze_image/hongkong_input.jpg" alt="input image"/>
    </div>
    <div class="col-xs-6">
-      <img src="results/hongkong_input_out.jpg" alt="output image"/>
+      <img src="results/hongkong_our.jpg" alt="output image"/>
    </div>
 </div>
 
@@ -24,4 +24,4 @@ Haze limits the visibility of outdoor images, due to the existence of fog, smoke
 Published in [ICAPR 2017] <br/>
 Preprint paper: [[pdf]](icapr17_preprint.pdf) <br/>
 
-**Results:** [Uploading soon](#)
+**Results:** [More results](results.html)
