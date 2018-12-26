@@ -27,6 +27,7 @@ title: Single Image Dehazing
 
 Accepted in [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/document/8367892/) <br/>
 Preprint paper: [pdf](comp_tip.pdf) <br/>
+Poster: [pdf](poster_icvgip.pdf) (Presented in Vision India session at [ICVGIP 2018, Hyderabad, India](https://cvit.iiit.ac.in/icvgip18/)) <br/>
 Code: [github](https://github.com/san-santra/dehaze_t_comparator)
 
 **Results:** [Supplementary Pdf](supp.pdf)
