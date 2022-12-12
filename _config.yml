@@ -22,4 +22,6 @@ markdown: kramdown
 #theme: minima
 #
 #Configuration
-exclude: ['*.py']
+exclude: 
+    - ['*.py']
+    - vendor/
